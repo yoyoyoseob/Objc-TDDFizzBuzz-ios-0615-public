@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44CFDF14189C536E00238AA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CFDF13189C536E00238AA4 /* Foundation.framework */; };
+		44CFDF16189C536E00238AA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CFDF15189C536E00238AA4 /* CoreGraphics.framework */; };
+		44CFDF18189C536E00238AA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CFDF17189C536E00238AA4 /* UIKit.framework */; };
+		44CFDF1E189C536E00238AA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44CFDF1C189C536E00238AA4 /* InfoPlist.strings */; };
+		44CFDF20189C536E00238AA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CFDF1F189C536E00238AA4 /* main.m */; };
+		44CFDF24189C536E00238AA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CFDF23189C536E00238AA4 /* AppDelegate.m */; };
+		44CFDF26189C536E00238AA4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44CFDF25189C536E00238AA4 /* Images.xcassets */; };
+		44CFDF2D189C536E00238AA4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CFDF2C189C536E00238AA4 /* XCTest.framework */; };
+		44CFDF2E189C536E00238AA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CFDF13189C536E00238AA4 /* Foundation.framework */; };
+		44CFDF2F189C536E00238AA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CFDF17189C536E00238AA4 /* UIKit.framework */; };
+		44CFDF37189C536E00238AA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44CFDF35189C536E00238AA4 /* InfoPlist.strings */; };
+		44CFDF39189C536E00238AA4 /* Objc_TDDFizzBuzzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CFDF38189C536E00238AA4 /* Objc_TDDFizzBuzzTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44CFDF30189C536E00238AA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44CFDF08189C536E00238AA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44CFDF0F189C536E00238AA4;
+			remoteInfo = "Objc-TDDFizzBuzz";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44CFDF10189C536E00238AA4 /* Objc-TDDFizzBuzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objc-TDDFizzBuzz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44CFDF13189C536E00238AA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		44CFDF15189C536E00238AA4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		44CFDF17189C536E00238AA4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		44CFDF1B189C536E00238AA4 /* Objc-TDDFizzBuzz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Objc-TDDFizzBuzz-Info.plist"; sourceTree = "<group>"; };
+		44CFDF1D189C536E00238AA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44CFDF1F189C536E00238AA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44CFDF21189C536E00238AA4 /* Objc-TDDFizzBuzz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Objc-TDDFizzBuzz-Prefix.pch"; sourceTree = "<group>"; };
+		44CFDF22189C536E00238AA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44CFDF23189C536E00238AA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44CFDF25189C536E00238AA4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		44CFDF2B189C536E00238AA4 /* Objc-TDDFizzBuzzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objc-TDDFizzBuzzTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44CFDF2C189C536E00238AA4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		44CFDF34189C536E00238AA4 /* Objc-TDDFizzBuzzTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Objc-TDDFizzBuzzTests-Info.plist"; sourceTree = "<group>"; };
+		44CFDF36189C536E00238AA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44CFDF38189C536E00238AA4 /* Objc_TDDFizzBuzzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Objc_TDDFizzBuzzTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44CFDF0D189C536E00238AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CFDF16189C536E00238AA4 /* CoreGraphics.framework in Frameworks */,
+				44CFDF18189C536E00238AA4 /* UIKit.framework in Frameworks */,
+				44CFDF14189C536E00238AA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CFDF28189C536E00238AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CFDF2D189C536E00238AA4 /* XCTest.framework in Frameworks */,
+				44CFDF2F189C536E00238AA4 /* UIKit.framework in Frameworks */,
+				44CFDF2E189C536E00238AA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44CFDF07189C536E00238AA4 = {
+			isa = PBXGroup;
+			children = (
+				44CFDF19189C536E00238AA4 /* Objc-TDDFizzBuzz */,
+				44CFDF32189C536E00238AA4 /* Objc-TDDFizzBuzzTests */,
+				44CFDF12189C536E00238AA4 /* Frameworks */,
+				44CFDF11189C536E00238AA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44CFDF11189C536E00238AA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44CFDF10189C536E00238AA4 /* Objc-TDDFizzBuzz.app */,
+				44CFDF2B189C536E00238AA4 /* Objc-TDDFizzBuzzTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44CFDF12189C536E00238AA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44CFDF13189C536E00238AA4 /* Foundation.framework */,
+				44CFDF15189C536E00238AA4 /* CoreGraphics.framework */,
+				44CFDF17189C536E00238AA4 /* UIKit.framework */,
+				44CFDF2C189C536E00238AA4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44CFDF19189C536E00238AA4 /* Objc-TDDFizzBuzz */ = {
+			isa = PBXGroup;
+			children = (
+				44CFDF22189C536E00238AA4 /* AppDelegate.h */,
+				44CFDF23189C536E00238AA4 /* AppDelegate.m */,
+				44CFDF25189C536E00238AA4 /* Images.xcassets */,
+				44CFDF1A189C536E00238AA4 /* Supporting Files */,
+			);
+			path = "Objc-TDDFizzBuzz";
+			sourceTree = "<group>";
+		};
+		44CFDF1A189C536E00238AA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44CFDF1B189C536E00238AA4 /* Objc-TDDFizzBuzz-Info.plist */,
+				44CFDF1C189C536E00238AA4 /* InfoPlist.strings */,
+				44CFDF1F189C536E00238AA4 /* main.m */,
+				44CFDF21189C536E00238AA4 /* Objc-TDDFizzBuzz-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44CFDF32189C536E00238AA4 /* Objc-TDDFizzBuzzTests */ = {
+			isa = PBXGroup;
+			children = (
+				44CFDF38189C536E00238AA4 /* Objc_TDDFizzBuzzTests.m */,
+				44CFDF33189C536E00238AA4 /* Supporting Files */,
+			);
+			path = "Objc-TDDFizzBuzzTests";
+			sourceTree = "<group>";
+		};
+		44CFDF33189C536E00238AA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44CFDF34189C536E00238AA4 /* Objc-TDDFizzBuzzTests-Info.plist */,
+				44CFDF35189C536E00238AA4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44CFDF0F189C536E00238AA4 /* Objc-TDDFizzBuzz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44CFDF3C189C536E00238AA4 /* Build configuration list for PBXNativeTarget "Objc-TDDFizzBuzz" */;
+			buildPhases = (
+				44CFDF0C189C536E00238AA4 /* Sources */,
+				44CFDF0D189C536E00238AA4 /* Frameworks */,
+				44CFDF0E189C536E00238AA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Objc-TDDFizzBuzz";
+			productName = "Objc-TDDFizzBuzz";
+			productReference = 44CFDF10189C536E00238AA4 /* Objc-TDDFizzBuzz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44CFDF2A189C536E00238AA4 /* Objc-TDDFizzBuzzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44CFDF3F189C536E00238AA4 /* Build configuration list for PBXNativeTarget "Objc-TDDFizzBuzzTests" */;
+			buildPhases = (
+				44CFDF27189C536E00238AA4 /* Sources */,
+				44CFDF28189C536E00238AA4 /* Frameworks */,
+				44CFDF29189C536E00238AA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44CFDF31189C536E00238AA4 /* PBXTargetDependency */,
+			);
+			name = "Objc-TDDFizzBuzzTests";
+			productName = "Objc-TDDFizzBuzzTests";
+			productReference = 44CFDF2B189C536E00238AA4 /* Objc-TDDFizzBuzzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44CFDF08189C536E00238AA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Flatiron School";
+				TargetAttributes = {
+					44CFDF2A189C536E00238AA4 = {
+						TestTargetID = 44CFDF0F189C536E00238AA4;
+					};
+				};
+			};
+			buildConfigurationList = 44CFDF0B189C536E00238AA4 /* Build configuration list for PBXProject "Objc-TDDFizzBuzz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 44CFDF07189C536E00238AA4;
+			productRefGroup = 44CFDF11189C536E00238AA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44CFDF0F189C536E00238AA4 /* Objc-TDDFizzBuzz */,
+				44CFDF2A189C536E00238AA4 /* Objc-TDDFizzBuzzTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44CFDF0E189C536E00238AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CFDF1E189C536E00238AA4 /* InfoPlist.strings in Resources */,
+				44CFDF26189C536E00238AA4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CFDF29189C536E00238AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CFDF37189C536E00238AA4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44CFDF0C189C536E00238AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CFDF24189C536E00238AA4 /* AppDelegate.m in Sources */,
+				44CFDF20189C536E00238AA4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CFDF27189C536E00238AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CFDF39189C536E00238AA4 /* Objc_TDDFizzBuzzTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44CFDF31189C536E00238AA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44CFDF0F189C536E00238AA4 /* Objc-TDDFizzBuzz */;
+			targetProxy = 44CFDF30189C536E00238AA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44CFDF1C189C536E00238AA4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44CFDF1D189C536E00238AA4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		44CFDF35189C536E00238AA4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44CFDF36189C536E00238AA4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44CFDF3A189C536E00238AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		44CFDF3B189C536E00238AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44CFDF3D189C536E00238AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Objc-TDDFizzBuzz/Objc-TDDFizzBuzz-Prefix.pch";
+				INFOPLIST_FILE = "Objc-TDDFizzBuzz/Objc-TDDFizzBuzz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		44CFDF3E189C536E00238AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Objc-TDDFizzBuzz/Objc-TDDFizzBuzz-Prefix.pch";
+				INFOPLIST_FILE = "Objc-TDDFizzBuzz/Objc-TDDFizzBuzz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		44CFDF40189C536E00238AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Objc-TDDFizzBuzz.app/Objc-TDDFizzBuzz";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Objc-TDDFizzBuzz/Objc-TDDFizzBuzz-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Objc-TDDFizzBuzzTests/Objc-TDDFizzBuzzTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		44CFDF41189C536E00238AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Objc-TDDFizzBuzz.app/Objc-TDDFizzBuzz";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Objc-TDDFizzBuzz/Objc-TDDFizzBuzz-Prefix.pch";
+				INFOPLIST_FILE = "Objc-TDDFizzBuzzTests/Objc-TDDFizzBuzzTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44CFDF0B189C536E00238AA4 /* Build configuration list for PBXProject "Objc-TDDFizzBuzz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CFDF3A189C536E00238AA4 /* Debug */,
+				44CFDF3B189C536E00238AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44CFDF3C189C536E00238AA4 /* Build configuration list for PBXNativeTarget "Objc-TDDFizzBuzz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CFDF3D189C536E00238AA4 /* Debug */,
+				44CFDF3E189C536E00238AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		44CFDF3F189C536E00238AA4 /* Build configuration list for PBXNativeTarget "Objc-TDDFizzBuzzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CFDF40189C536E00238AA4 /* Debug */,
+				44CFDF41189C536E00238AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44CFDF08189C536E00238AA4 /* Project object */;
+}
