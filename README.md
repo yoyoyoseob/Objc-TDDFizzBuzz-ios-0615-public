@@ -21,6 +21,16 @@ We'll be slightly modifying FizzBuzz to build a solution using TDD.  The key dif
 Instructions
 =====================
 
+We'll give you a bit of room to be creative with how you create your FizzBuzz instances for your tests, but here is one way: 
+
+   - Create a property of type FizzBuzz named fizzBuzz
+   - In your setup method alloc init an instance of FizzBuzz
+   - in any method that requires instantiating a FizzBuzz item, you can call self.fizzBuzz and get a new instance of   FizzBuzz.  
+   - You can create multiple properties and initialize them in your setup method if you need to represent multiple properties.
+   - Set your properties to nil in the teardown method.  
+
+You could also rewrite `FizzBuzz *fizzBuzz = [[FizzBuzz alloc] init]; ` in each test, but that wouldn't adhere to D.R.Y. (don't repeat yourself).  
+
 #Test 1
 1. Write a test that asserts that a `FizzBuzz` object can be instantiated i.e. alloc init'ing a `FizzBuzz` object returns an object of class `FizzBuzz`.
 2. Run your test (It won't even compile because the FizzBuzz class doesn't exist)**Red**
