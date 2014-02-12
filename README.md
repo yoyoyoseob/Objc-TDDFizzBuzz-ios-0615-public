@@ -28,13 +28,13 @@ Instructions
 4. Run your test (It should pass)**Green**
 
 #Test 2
-1. Write a test that tests setting FizzBuzz's `startNumber` property. 
+1. Write a test that tests setting FizzBuzz's `startNumber` property to @5.  
 2. Run your test (Again it won't compile)**Red**
 3. Add the `startNumber` property to your `FizzBuzz` class (remember, properties automatically generate setters and getters!) 
 4. Run your test (It should pass)**Green**
 
 #Test 3
-1. Write a test that tests setting FizzBuzz's `endNumber` property. 
+1. Write a test that tests setting FizzBuzz's `endNumber` property to @5.
 2. Run your test (Again it won't compile)**Red**
 3. Add the `endNumber` property to your `FizzBuzz` class
 4. Run your test (It should pass)**Green**
