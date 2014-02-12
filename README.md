@@ -22,15 +22,15 @@ Instructions
 =====================
 
 #Test 1
-1. Write a test that asserts that a FizzBuzz object can be instantiated.
-2. Run your test (It won't even compile because FizzBuzz doesn't exist)*Red*
+1. Write a test that asserts that a FizzBuzz object can be instantiated i.e. alloc init'ing a FizzBuzz object returns an object of class FizzBuzz.
+2. Run your test (It won't even compile because the FizzBuzz class doesn't exist)*Red*
 3. Create a class called FizzBuzz (subclass of NSObject) and import FizzBuzz.h into your Test Class 
 4. Run your test (It should pass)*Green*
 
 #Test 2
 1. Write a test that tests setting FizzBuzz's startNumber property. 
 2. Run your test (Again it won't compile)*Red*
-3. Add the startNumber property to your FizzBuzz class
+3. Add the startNumber property to your FizzBuzz class (remember, properties automatically generate setters and getters!) 
 4. Run your test (It should pass)*Green*
 
 #Test 3
@@ -40,7 +40,7 @@ Instructions
 4. Run your test (It should pass)*Green*
 
 #Test 4
-1. Write a test that tests FizzBuzz's init Method with two assertions.  The goal of these assertions is to show that after initializing, startNumber and endNumber default to @0.  
+1. Write a test that tests FizzBuzz's init Method with two assertions.  The goal of these assertions is to show that after initializing, startNumber and endNumber default to @0. ie. if startNumber and endNumber aren't set, they return @0.    
 2. Run your test (This time it will compile but will fail)*Red*
 3. Implement FizzBuzz's init method to pass this test. *Green*
  
