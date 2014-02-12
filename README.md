@@ -61,7 +61,7 @@ You could also rewrite `FizzBuzz *fizzBuzz = [[FizzBuzz alloc] init]; ` in each 
 
 #Refactor
 1. Hazah! Adding a designated initializer to the mix gives us a chance to refactor things a bit.  In your init method, you set the properties of start number and end number.  Why not just use the designated initializer to do the same work in less lines of code. 
-2. **Refactor** your init method to use your designated initializer to set `startNumber` and `endNumber` to `@0`.
+2. **Refactor** your default `-init` method to call your designated initializer to set `startNumber` and `endNumber` to `@0`.
 3. Run your test.**Green**
 
 #Test 6
