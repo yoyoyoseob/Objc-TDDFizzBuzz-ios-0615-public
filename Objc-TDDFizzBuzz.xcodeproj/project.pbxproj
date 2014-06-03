@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4402C8FD193E37D5004F1ADE /* FizzBuzz.m in Sources */ = {isa = PBXBuildFile; fileRef = 4402C8FC193E37D5004F1ADE /* FizzBuzz.m */; };
 		44CFDF14189C536E00238AA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CFDF13189C536E00238AA4 /* Foundation.framework */; };
 		44CFDF16189C536E00238AA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CFDF15189C536E00238AA4 /* CoreGraphics.framework */; };
 		44CFDF18189C536E00238AA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CFDF17189C536E00238AA4 /* UIKit.framework */; };
@@ -19,6 +20,7 @@
 		44CFDF2F189C536E00238AA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CFDF17189C536E00238AA4 /* UIKit.framework */; };
 		44CFDF37189C536E00238AA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44CFDF35189C536E00238AA4 /* InfoPlist.strings */; };
 		44CFDF39189C536E00238AA4 /* Objc_TDDFizzBuzzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CFDF38189C536E00238AA4 /* Objc_TDDFizzBuzzTests.m */; };
+		968093346B894D418A0C0A69 /* libPods-Objc-TDDFizzBuzzTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E5950CB9C5485D8E7D6374 /* libPods-Objc-TDDFizzBuzzTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4402C8FB193E37D5004F1ADE /* FizzBuzz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FizzBuzz.h; sourceTree = "<group>"; };
+		4402C8FC193E37D5004F1ADE /* FizzBuzz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FizzBuzz.m; sourceTree = "<group>"; };
 		44CFDF10189C536E00238AA4 /* Objc-TDDFizzBuzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objc-TDDFizzBuzz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44CFDF13189C536E00238AA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		44CFDF15189C536E00238AA4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +52,8 @@
 		44CFDF34189C536E00238AA4 /* Objc-TDDFizzBuzzTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Objc-TDDFizzBuzzTests-Info.plist"; sourceTree = "<group>"; };
 		44CFDF36189C536E00238AA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44CFDF38189C536E00238AA4 /* Objc_TDDFizzBuzzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Objc_TDDFizzBuzzTests.m; sourceTree = "<group>"; };
+		51E5950CB9C5485D8E7D6374 /* libPods-Objc-TDDFizzBuzzTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Objc-TDDFizzBuzzTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D6DB695D1194E8CA59FAEA3 /* Pods-Objc-TDDFizzBuzzTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Objc-TDDFizzBuzzTests.xcconfig"; path = "Pods/Pods-Objc-TDDFizzBuzzTests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,7 @@
 				44CFDF2D189C536E00238AA4 /* XCTest.framework in Frameworks */,
 				44CFDF2F189C536E00238AA4 /* UIKit.framework in Frameworks */,
 				44CFDF2E189C536E00238AA4 /* Foundation.framework in Frameworks */,
+				968093346B894D418A0C0A69 /* libPods-Objc-TDDFizzBuzzTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +88,7 @@
 				44CFDF32189C536E00238AA4 /* Objc-TDDFizzBuzzTests */,
 				44CFDF12189C536E00238AA4 /* Frameworks */,
 				44CFDF11189C536E00238AA4 /* Products */,
+				8D6DB695D1194E8CA59FAEA3 /* Pods-Objc-TDDFizzBuzzTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +108,7 @@
 				44CFDF15189C536E00238AA4 /* CoreGraphics.framework */,
 				44CFDF17189C536E00238AA4 /* UIKit.framework */,
 				44CFDF2C189C536E00238AA4 /* XCTest.framework */,
+				51E5950CB9C5485D8E7D6374 /* libPods-Objc-TDDFizzBuzzTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,6 +120,8 @@
 				44CFDF23189C536E00238AA4 /* AppDelegate.m */,
 				44CFDF25189C536E00238AA4 /* Images.xcassets */,
 				44CFDF1A189C536E00238AA4 /* Supporting Files */,
+				4402C8FB193E37D5004F1ADE /* FizzBuzz.h */,
+				4402C8FC193E37D5004F1ADE /* FizzBuzz.m */,
 			);
 			path = "Objc-TDDFizzBuzz";
 			sourceTree = "<group>";
@@ -168,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44CFDF3F189C536E00238AA4 /* Build configuration list for PBXNativeTarget "Objc-TDDFizzBuzzTests" */;
 			buildPhases = (
+				F714096C0A9A465095EC0AAF /* Check Pods Manifest.lock */,
 				44CFDF27189C536E00238AA4 /* Sources */,
 				44CFDF28189C536E00238AA4 /* Frameworks */,
 				44CFDF29189C536E00238AA4 /* Resources */,
+				87B0C03ADCF04271AF9D1735 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,7 +201,7 @@
 		44CFDF08189C536E00238AA4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Flatiron School";
 				TargetAttributes = {
 					44CFDF2A189C536E00238AA4 = {
@@ -234,12 +247,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		87B0C03ADCF04271AF9D1735 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Objc-TDDFizzBuzzTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F714096C0A9A465095EC0AAF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		44CFDF0C189C536E00238AA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				44CFDF24189C536E00238AA4 /* AppDelegate.m in Sources */,
+				4402C8FD193E37D5004F1ADE /* FizzBuzz.m in Sources */,
 				44CFDF20189C536E00238AA4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,7 +333,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -325,7 +371,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -382,8 +427,8 @@
 		};
 		44CFDF40189C536E00238AA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D6DB695D1194E8CA59FAEA3 /* Pods-Objc-TDDFizzBuzzTests.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Objc-TDDFizzBuzz.app/Objc-TDDFizzBuzz";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -405,8 +450,8 @@
 		};
 		44CFDF41189C536E00238AA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D6DB695D1194E8CA59FAEA3 /* Pods-Objc-TDDFizzBuzzTests.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Objc-TDDFizzBuzz.app/Objc-TDDFizzBuzz";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -441,6 +486,7 @@
 				44CFDF3E189C536E00238AA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44CFDF3F189C536E00238AA4 /* Build configuration list for PBXNativeTarget "Objc-TDDFizzBuzzTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +495,7 @@
 				44CFDF41189C536E00238AA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

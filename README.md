@@ -23,10 +23,9 @@ Instructions
 
 We'll give you a bit of room to be creative with how you create your FizzBuzz instances for your tests, but here is one way: 
 
-   - Create a property of type FizzBuzz named fizzBuzz
-   - In your setup method alloc init an instance of FizzBuzz
-   - in any method that requires instantiating a FizzBuzz item, you can call self.fizzBuzz and get a new instance of   FizzBuzz.  
-   - You can create multiple properties and initialize them in your setup method if you need to represent multiple properties.
+   - Create a variable of type FizzBuzz named fizzBuzz (This has been done for you)
+   - In your beforeAll block, alloc init an instance of FizzBuzz (This has been done for you)
+   - in any method that requires instantiating a FizzBuzz item, you can call fizzBuzz.  
 
 You could also rewrite `FizzBuzz *fizzBuzz = [[FizzBuzz alloc] init]; ` in each test, but that wouldn't adhere to D.R.Y. (don't repeat yourself).  
 

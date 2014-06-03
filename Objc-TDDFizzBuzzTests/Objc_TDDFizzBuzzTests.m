@@ -1,34 +1,60 @@
-//
-//  Objc_TDDFizzBuzzTests.m
-//  Objc-TDDFizzBuzzTests
-//
-//  Created by Al Tyus on 1/31/14.
-//  Copyright (c) 2014 Flatiron School. All rights reserved.
-//
+#import "Specta.h"
+#define EXP_SHORTHAND
+#import "Expecta.h"
+#import "FizzBuzz.h"
 
-#import <XCTest/XCTest.h>
+SpecBegin(FizzBuzzTests)
 
-@interface Objc_TDDFizzBuzzTests : XCTestCase
+__block FizzBuzz *fizzBuzz;
 
-@end
+describe(@"Fizz Buzz Tests", ^{
+    
+    beforeAll(^{
+         fizzBuzz = [[FizzBuzz alloc] init];
+    });
+    
+    beforeEach(^{
+        
+    });
+    
+#pragma mark - Test 1
+    it(@"Should return a FizzBuzz Object upon initialization", ^{
+        expect(fizzBuzz).to.beKindOf([FizzBuzz class]);
+        expect(fizzBuzz).toNot.beNil();
+    });
+    
+#pragma mark - Test 2
+    it(@"Should allow it's startNumber property to be set", ^{
+        expect(fizzBuzz).to.respondTo(@selector(getArgument:atIndex:));
+    });
+    
+#pragma mark - Test 3
+    it(@"Should allow it's endNumber property to be set", ^{
+        
+    });
+    
+#pragma mark - Test 4
+    it(@"Should set startNumber and endNumber to @0 when initialized using default initializer", ^{
+        
+    });
+    
+#pragma mark - Test 5
+    it(@"Should return a FizzBuzz Object when initialized with a designated initializer", ^{
+        
+    });
+    
+#pragma mark - Test 6 
+    it(@"Should replace appropriate values with Fizz, Buzz, and FizzBuzz", ^{
+        
+    });
+    
+    afterEach(^{
+        
+    });
+    
+    afterAll(^{
+        
+    });
+});
 
-@implementation Objc_TDDFizzBuzzTests
-
-- (void)setUp
-{
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
-}
-
-- (void)tearDown
-{
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
-}
-
-- (void)testExample
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
-}
-
-@end
+SpecEnd
