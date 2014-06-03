@@ -6,15 +6,20 @@
 SpecBegin(FizzBuzzTests)
 
 __block FizzBuzz *fizzBuzz;
+__block FizzBuzz *defaultFizzBuzz;
+__block FizzBuzz *designatedFizzBuzz;
 
 describe(@"Fizz Buzz Tests", ^{
     
     beforeAll(^{
-         fizzBuzz = [[FizzBuzz alloc] init];
+        
     });
     
     beforeEach(^{
-        
+        fizzBuzz = [[FizzBuzz alloc] init];
+        defaultFizzBuzz = [[FizzBuzz alloc] init];
+        designatedFizzBuzz = [[FizzBuzz alloc] initWithStartNumber:@0
+                                                         endNumber:@15];
     });
     
 #pragma mark - Test 1
@@ -25,27 +30,27 @@ describe(@"Fizz Buzz Tests", ^{
     
 #pragma mark - Test 2
     it(@"Should allow it's startNumber property to be set", ^{
-        expect(fizzBuzz).to.respondTo(@selector(getArgument:atIndex:));
+        expect(defaultFizzBuzz).to.respondTo(@selector(setStartNumber:));
     });
     
 #pragma mark - Test 3
     it(@"Should allow it's endNumber property to be set", ^{
-        
+
     });
     
 #pragma mark - Test 4
     it(@"Should set startNumber and endNumber to @0 when initialized using default initializer", ^{
-        
+
     });
     
 #pragma mark - Test 5
     it(@"Should return a FizzBuzz Object when initialized with a designated initializer", ^{
-        
+
     });
     
-#pragma mark - Test 6 
+#pragma mark - Test 6
     it(@"Should replace appropriate values with Fizz, Buzz, and FizzBuzz", ^{
-        
+
     });
     
     afterEach(^{
@@ -56,5 +61,7 @@ describe(@"Fizz Buzz Tests", ^{
         
     });
 });
+
+
 
 SpecEnd

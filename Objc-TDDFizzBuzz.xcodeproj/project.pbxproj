@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4402C8FD193E37D5004F1ADE /* FizzBuzz.m in Sources */ = {isa = PBXBuildFile; fileRef = 4402C8FC193E37D5004F1ADE /* FizzBuzz.m */; };
+		4402C8FF193E8B0A004F1ADE /* FizzBuzzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4402C8FE193E8B0A004F1ADE /* FizzBuzzTests.m */; };
 		44CFDF14189C536E00238AA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CFDF13189C536E00238AA4 /* Foundation.framework */; };
 		44CFDF16189C536E00238AA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CFDF15189C536E00238AA4 /* CoreGraphics.framework */; };
 		44CFDF18189C536E00238AA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CFDF17189C536E00238AA4 /* UIKit.framework */; };
@@ -19,7 +20,6 @@
 		44CFDF2E189C536E00238AA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CFDF13189C536E00238AA4 /* Foundation.framework */; };
 		44CFDF2F189C536E00238AA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CFDF17189C536E00238AA4 /* UIKit.framework */; };
 		44CFDF37189C536E00238AA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44CFDF35189C536E00238AA4 /* InfoPlist.strings */; };
-		44CFDF39189C536E00238AA4 /* Objc_TDDFizzBuzzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CFDF38189C536E00238AA4 /* Objc_TDDFizzBuzzTests.m */; };
 		968093346B894D418A0C0A69 /* libPods-Objc-TDDFizzBuzzTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E5950CB9C5485D8E7D6374 /* libPods-Objc-TDDFizzBuzzTests.a */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +36,7 @@
 /* Begin PBXFileReference section */
 		4402C8FB193E37D5004F1ADE /* FizzBuzz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FizzBuzz.h; sourceTree = "<group>"; };
 		4402C8FC193E37D5004F1ADE /* FizzBuzz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FizzBuzz.m; sourceTree = "<group>"; };
+		4402C8FE193E8B0A004F1ADE /* FizzBuzzTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FizzBuzzTests.m; sourceTree = "<group>"; };
 		44CFDF10189C536E00238AA4 /* Objc-TDDFizzBuzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objc-TDDFizzBuzz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44CFDF13189C536E00238AA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		44CFDF15189C536E00238AA4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -51,7 +52,6 @@
 		44CFDF2C189C536E00238AA4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		44CFDF34189C536E00238AA4 /* Objc-TDDFizzBuzzTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Objc-TDDFizzBuzzTests-Info.plist"; sourceTree = "<group>"; };
 		44CFDF36189C536E00238AA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		44CFDF38189C536E00238AA4 /* Objc_TDDFizzBuzzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Objc_TDDFizzBuzzTests.m; sourceTree = "<group>"; };
 		51E5950CB9C5485D8E7D6374 /* libPods-Objc-TDDFizzBuzzTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Objc-TDDFizzBuzzTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6DB695D1194E8CA59FAEA3 /* Pods-Objc-TDDFizzBuzzTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Objc-TDDFizzBuzzTests.xcconfig"; path = "Pods/Pods-Objc-TDDFizzBuzzTests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,7 +140,7 @@
 		44CFDF32189C536E00238AA4 /* Objc-TDDFizzBuzzTests */ = {
 			isa = PBXGroup;
 			children = (
-				44CFDF38189C536E00238AA4 /* Objc_TDDFizzBuzzTests.m */,
+				4402C8FE193E8B0A004F1ADE /* FizzBuzzTests.m */,
 				44CFDF33189C536E00238AA4 /* Supporting Files */,
 			);
 			path = "Objc-TDDFizzBuzzTests";
@@ -295,7 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44CFDF39189C536E00238AA4 /* Objc_TDDFizzBuzzTests.m in Sources */,
+				4402C8FF193E8B0A004F1ADE /* FizzBuzzTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
