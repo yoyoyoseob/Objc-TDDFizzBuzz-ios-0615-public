@@ -10,4 +10,10 @@
 
 @interface FizzBuzz : NSObject
 
+@property (nonatomic) NSNumber *startNumber;
+@property (nonatomic) NSNumber *endNumber;
+
+- (instancetype)init;
+- (instancetype)initWithStartNumber:(NSNumber *)startNumber endNumber:(NSNumber *)endNumber;
+
 @end
