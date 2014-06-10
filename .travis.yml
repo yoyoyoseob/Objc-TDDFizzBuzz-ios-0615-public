@@ -2,7 +2,6 @@ language: objective-c
 
 before_install: 
   - brew update
-  - brew remove xctool
   - brew install xctool
 
-script: xctool -reporter pretty -project Objc-TDDFizzBuzz.xcodeproj -sdk iphonesimulator7.0 -scheme Objc-TDDFizzBuzz build test
+script: xctool -reporter pretty -project Objc-TDDFizzBuzz.xcodeproj -sdk iphonesimulator -scheme Objc-TDDFizzBuzz build test
