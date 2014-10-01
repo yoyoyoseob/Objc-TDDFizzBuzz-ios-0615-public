@@ -52,8 +52,9 @@
 		44CFDF2C189C536E00238AA4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		44CFDF34189C536E00238AA4 /* Objc-TDDFizzBuzzTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Objc-TDDFizzBuzzTests-Info.plist"; sourceTree = "<group>"; };
 		44CFDF36189C536E00238AA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		492B01018311B56BE36F1DF7 /* Pods-Objc-TDDFizzBuzzTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Objc-TDDFizzBuzzTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Objc-TDDFizzBuzzTests/Pods-Objc-TDDFizzBuzzTests.release.xcconfig"; sourceTree = "<group>"; };
 		51E5950CB9C5485D8E7D6374 /* libPods-Objc-TDDFizzBuzzTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Objc-TDDFizzBuzzTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D6DB695D1194E8CA59FAEA3 /* Pods-Objc-TDDFizzBuzzTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Objc-TDDFizzBuzzTests.xcconfig"; path = "Pods/Pods-Objc-TDDFizzBuzzTests.xcconfig"; sourceTree = "<group>"; };
+		AEAB287E23C53D95461A14E6 /* Pods-Objc-TDDFizzBuzzTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Objc-TDDFizzBuzzTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Objc-TDDFizzBuzzTests/Pods-Objc-TDDFizzBuzzTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CDBD35C7EC69C8CBD19D064 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEAB287E23C53D95461A14E6 /* Pods-Objc-TDDFizzBuzzTests.debug.xcconfig */,
+				492B01018311B56BE36F1DF7 /* Pods-Objc-TDDFizzBuzzTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		44CFDF07189C536E00238AA4 = {
 			isa = PBXGroup;
 			children = (
@@ -88,7 +98,7 @@
 				44CFDF32189C536E00238AA4 /* Objc-TDDFizzBuzzTests */,
 				44CFDF12189C536E00238AA4 /* Frameworks */,
 				44CFDF11189C536E00238AA4 /* Products */,
-				8D6DB695D1194E8CA59FAEA3 /* Pods-Objc-TDDFizzBuzzTests.xcconfig */,
+				0CDBD35C7EC69C8CBD19D064 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -260,7 +270,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-Objc-TDDFizzBuzzTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Objc-TDDFizzBuzzTests/Pods-Objc-TDDFizzBuzzTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F714096C0A9A465095EC0AAF /* Check Pods Manifest.lock */ = {
@@ -427,7 +437,7 @@
 		};
 		44CFDF40189C536E00238AA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D6DB695D1194E8CA59FAEA3 /* Pods-Objc-TDDFizzBuzzTests.xcconfig */;
+			baseConfigurationReference = AEAB287E23C53D95461A14E6 /* Pods-Objc-TDDFizzBuzzTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Objc-TDDFizzBuzz.app/Objc-TDDFizzBuzz";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -450,7 +460,7 @@
 		};
 		44CFDF41189C536E00238AA4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D6DB695D1194E8CA59FAEA3 /* Pods-Objc-TDDFizzBuzzTests.xcconfig */;
+			baseConfigurationReference = 492B01018311B56BE36F1DF7 /* Pods-Objc-TDDFizzBuzzTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Objc-TDDFizzBuzz.app/Objc-TDDFizzBuzz";
 				FRAMEWORK_SEARCH_PATHS = (
